@@ -1,0 +1,14 @@
+@import 'lib/style';
+
+.outer {
+  margin-bottom: 20px;
+}
+
+.titleContainer {
+  padding: 4px 16px;
+}
+
+.title {
+  @include body-medium-text;
+  border-bottom: 1px solid;
+}

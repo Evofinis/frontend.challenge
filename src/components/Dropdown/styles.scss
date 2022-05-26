@@ -1,0 +1,13 @@
+@import 'lib/style';
+
+.dropdownContainer {
+  @include body-medium-text;
+  display: flex;
+  justify-content: end;
+
+  padding: 0 16px;
+
+  label {
+    padding-right: 8px;
+  }
+}
